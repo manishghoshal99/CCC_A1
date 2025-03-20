@@ -1,0 +1,13 @@
+prefix=/Users/manishghoshal/Desktop/UniMelb/Semester 1/CCC/CCC_A1/venv
+exec_prefix=/Users/manishghoshal/Desktop/UniMelb/Semester 1/CCC/CCC_A1/venv
+libdir=/Users/manishghoshal/Desktop/UniMelb/Semester 1/CCC/CCC_A1/venv/lib
+sharedlibdir=/Users/manishghoshal/Desktop/UniMelb/Semester 1/CCC/CCC_A1/venv/lib
+includedir=/Users/manishghoshal/Desktop/UniMelb/Semester 1/CCC/CCC_A1/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
